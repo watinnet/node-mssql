@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>HELLO , MS SQL SERVER </title>
+
+    </head>
+    <body>
+       <h1>The result is <%= title %> records </h1>
+
+       <ul>
+        <% products.forEach(function(product){ %>
+            <li><%= product.product_name %> <%= product.product_desc %>  - 
+                <a href='#' class="deleteUser" data-id="<%= products.product_id %>">Delete</a>
+                <a href='#' class="UpdateUser" data-id="<%= products.product_id %>">Update</a>
+            </li>
+        <% }) %>
+        </ul>
+
+    </body>
+</html>
