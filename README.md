@@ -1,3 +1,4 @@
 # node-mssql
-just for funny test
-first write comment
+This is one of my hobby to learning the tools to create a software.
+
+I am enjoing on NodeJS .
